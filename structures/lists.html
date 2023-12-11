@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+
+    <link rel="shortcut icon" href="../icons/petra.svg" type="image/x-icon">
+    <!-- Right landing page -->
+
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/info-landing.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/info-pages.css">
+    <!-- Linking CSS -->
+
+    <!-- Adding font "Cormorant" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+    <script>
+        function formCompletionMessage(event) {
+            event.preventDefault();
+            let date = document.getElementById('date').value;
+
+            let comparedate = new Date(date);
+            const today = new Date();
+
+            if (comparedate > today) {
+                window.alert("Invalid Date, retry");
+            } else {
+                let fname = document.getElementById('fname').value;
+                let lname = document.getElementById('lname').value;
+                let email = document.getElementById('email').value;
+                let wonder = document.getElementById('wonder-option').value;
+            let story = document.getElementById('story').value;
+            
+            let message = `Confirm Your Details: 
+            First Name: ${fname} \n 
+            Last Name: ${lname} \n 
+            Email: ${email} \n 
+            Date: ${date} \n
+            Wonder: ${wonder} \n \n 
+            Your Story: ${story}
+            `
+            window.confirm(message)
+}
+}
+    </script>
+</head>
+<body>
+    <header>
+        <div id="left-section">
+   </div>
+        <div id="right-section">
+            <div class="nav-button" id="nav0" onclick="location.href = '../index.html'">
+                <img src="../icons/home.svg" class="nav-icons">
+            </div>
+            -
+            
+            <div class="nav-button" id="nav1" onclick="location.href = '../structures/array.html'">
+                <img src="../icons/giza.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav2" onclick="location.href = '../structures/dictionary.html'">
+                <img src="../icons/china.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav4">
+                <img src="../icons/colosseum.svg" class="nav-icons" onclick="location.href = '../structures/stack.html'">
+            </div>
+            <div class="nav-button" id="nav5">
+                <img src="../icons/itza.svg" class="nav-icons" onclick="location.href = '../structures/linked-lists.html'">
+            </div>
+            <div class="nav-button" id="nav6">
+                <img src="../icons/pichu.svg" class="nav-icons" onclick="location.href = '../structures/queue.html'">
+            </div>
+            <div class="nav-button" id="nav7">
+                <img src="../icons/taj.svg" class="nav-icons" onclick="location.href = '../structures/graph.html'">
+            </div>
+            <div class="nav-button" id="nav8" onclick="location.href = '../structures/binary-tree.html'">
+                <img src="../icons/christ.svg" class="nav-icons">
+            </div>
+        </div>
+        </header>
+
+        <section id="info-landing">
+            <div id="landing-grid">
+                <div id="landing-image-container">
+                    <img src="../images/petra.jpg" id="background-image">
+                </div>
+                <div id="info-title">
+                    <p id="page-title-main">
+                        Lists
+                    </p>
+
+                    <ul id="wonder-fact-list">
+                        <li>Append: Adds an element to the end of the list.</li>
+                        <li>Remove: Removes the first occurrence of a specified element from the list.</li>
+                        <li>Sort: Arranges the elements of the list in ascending or descending order.</li>
+                        <li>Slice: Extracts a portion of the list, creating a new list.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" id="divider-1h-container">
+            <img src="../images/fancy-divider.png" id="divider-1h" class="horizontal-divider">
+        </div>
+
+        <section class="textual-desciption-section">
+            <div id="textual-description">
+                Lists have a Time complexity of O1 at best case since adding a value to a list can be done instantly, but removing or finding an item in the list has a Time complexity of O(n) since you have to go through the list in a linear fashion. If lists are within other lists, the time complexity goes to O(n^2) at the worst case                
+                <br> <br>
+                Lists have a space Complexity of O(n) as they are stored non-contiguously, and lists are a dynamic data structure, so only take up as much memory as needed
+            </div>            
+        </section>
+
+        <div class="divider" id="divider-2h-container">
+            <img src="../images/fancy-divider.png" id="divider-2h" class="horizontal-divider">
+        </div>
+
+        
+</body>
+</html>

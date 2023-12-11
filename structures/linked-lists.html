@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linked list</title>
+
+    <link rel="shortcut icon" href="../icons/itza.svg" type="image/x-icon">
+    <!-- Right landing page -->
+
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/info-landing.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/info-pages.css">
+    <!-- Linking CSS -->
+
+    <!-- Adding font "Cormorant" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <div id="left-section">
+  
+        </div>
+        <div id="right-section">
+            <div class="nav-button" id="nav0" onclick="location.href = '../index.html'">
+                <img src="../icons/home.svg" class="nav-icons">
+            </div>
+            -
+            
+            <div class="nav-button" id="nav1" onclick="location.href = '../structures/array.html'">
+                <img src="../icons/giza.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav2" onclick="location.href = '../structures/dictionary.html'">
+                <img src="../icons/china.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav3" onclick="location.href = '../structures/lists.html'">
+                <img src="../icons/petra.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav4">
+                <img src="../icons/colosseum.svg" class="nav-icons" onclick="location.href = '../structures/stack.html'">
+            </div>
+            <div class="nav-button" id="nav6">
+                <img src="../icons/pichu.svg" class="nav-icons" onclick="location.href = '../structures/queue.html'">
+            </div>
+            <div class="nav-button" id="nav7">
+                <img src="../icons/taj.svg" class="nav-icons" onclick="location.href = '../structures/graph.html'">
+            </div>
+            <div class="nav-button" id="nav8" onclick="location.href = '../structures/binary-tree.html'">
+                <img src="../icons/christ.svg" class="nav-icons">
+            </div>
+        </div>
+        </header>
+
+        <section id="info-landing">
+            <div id="landing-grid">
+                <div id="landing-image-container">
+                    <img src="../images/chichen-itza.jpg" id="background-image">
+                </div>
+                <div id="info-title">
+                    <p id="page-title-main">
+                        Linked List
+                    </p>
+
+                    <ul id="wonder-fact-list">
+                        <li>addItem() - Adds a item at a given location</li>
+                        <li>getLen() - Returns length of linked list`</li>
+                        <li>search() - Searches for a existing item</li>
+                        <li>delete() - Deletes a existing item</li>
+                        <li>and more...</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" id="divider-1h-container">
+            <img src="../images/fancy-divider.png" id="divider-1h" class="horizontal-divider">
+        </div>
+
+        <section class="textual-desciption-section">
+            <div id="textual-description">
+                Linked lists have a Time complexity of O1 at the best case because the first node could be the node that needs tampering with. However at an average or even at worst, the Time complexity of a linked list is O(n) as the list goes through each node one by one to get to the one that needs changing.
+                <br> <br>
+                A Linked lists Space complexity as best is O(n) because it is a dynamic data structure, and can only uses memory when needed and the size of the data can grow and shrink where possible. However a linked list can also be used as an array (a static data structure) which means that its Space complexity is O(1) and so will use a constant amount of memory no matter what.
+            </div>            
+        </section>
+
+        <div class="divider" id="divider-2h-container">
+            <img src="../images/fancy-divider.png" id="divider-2h" class="horizontal-divider">
+        </div>
+
+        
+</body>
+</html>

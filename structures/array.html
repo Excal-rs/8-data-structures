@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+
+    <link rel="shortcut icon" href="../icons/giza.svg" type="image/x-icon">
+    <!-- Right landing page -->
+
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/info-landing.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/info-pages.css">
+    <!-- Linking CSS -->
+
+    <!-- Adding font "Cormorant" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+
+    <!-- This is the only file in the "wonders" directory that will be commented as they are all the same, just different text and images -->
+
+
+</head>
+<body>
+    <header>
+        <div id="left-section">
+          <!-- The logo for the website, from the index.html file -->
+        </div>
+        <div id="right-section">
+            <div class="nav-button" id="nav0" onclick="location.href = '../index.html'">
+                <img src="../icons/home.svg" class="nav-icons">
+            </div>
+            
+            -
+            <!-- navigation to other pages -->
+            <div class="nav-button" id="nav2" onclick="location.href = '../structures/dictionary.html'">
+                <img src="../icons/china.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav3" onclick="location.href = '../structures/lists.html'">
+                <img src="../icons/petra.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav4">
+                <img src="../icons/colosseum.svg" class="nav-icons" onclick="location.href = '../structures/stack.html'">
+            </div>
+            <div class="nav-button" id="nav5">
+                <img src="../icons/itza.svg" class="nav-icons" onclick="location.href = '../structures/linked-lists.html'">
+            </div>
+            <div class="nav-button" id="nav6">
+                <img src="../icons/pichu.svg" class="nav-icons" onclick="location.href = '../structures/queue.html'">
+            </div>
+            <div class="nav-button" id="nav7">
+                <img src="../icons/taj.svg" class="nav-icons" onclick="location.href = '../structures/graph.html'">
+            </div>
+            <div class="nav-button" id="nav8" onclick="location.href = '../structures/binary-tree.html'">
+                <img src="../icons/christ.svg" class="nav-icons">
+            </div>
+        </div>
+        </header>
+
+        <section id="info-landing"> 
+            <div id="landing-grid">
+                <div id="landing-image-container">
+                    <img src="../images/giza.jpg" id="background-image">
+                </div>
+                <div id="info-title">
+                    <p id="page-title-main">
+                        Array
+                    </p>
+
+                    <!-- A unordered list for the facts about the wonder -->
+                    <ul id="wonder-fact-list">
+                        <li>Access Element: Retrieves the value of an element at a specific index in the array.</li>
+                        <li>Modify Element: Updates the value of an element at a specific index in the array.</li>
+                        <li>Array Length: Returns the number of elements in the array.</li>
+                        <li>Search Element: Finds the index of a specified element in the array.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" id="divider-1h-container">
+            <img src="../images/fancy-divider.png" id="divider-1h" class="horizontal-divider">
+        </div>
+
+        <section class="textual-desciption-section">
+            <div id="textual-description"> <!-- Textual description -->
+                Arrays have a time complexity of O(1) at best case when accessing an element by its index, as this operation can be performed instantly. However, the average and worst-case time complexity for operations like searching and removing an element in an array is O(n), as it requires traversing the array linearly. When arrays are multidimensional or nested within other arrays, the time complexity can worsen to O(n^2) at the worst case.                <br> <br>
+                Arrays exhibit a space complexity of O(n) since they store elements contiguously in memory. Arrays are considered a static data structure, meaning they allocate a fixed amount of memory. This can result in a constant space complexity of O(1) when the array size remains constant throughout its lifetime.            </div>            
+        </section>
+
+        <div class="divider" id="divider-2h-container">
+            <img src="../images/fancy-divider.png" id="divider-2h" class="horizontal-divider">
+        </div>
+
+         <!-- Same form as the one from, it makes a POST request to the form.php file which will later process the information --> -->
+        
+</body>
+</html>

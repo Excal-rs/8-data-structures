@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Setting the character set, and important responsive design and viewport stuff -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Set the tab Title-->
+    <title>8 Data structures</title>
+
+    <!-- Adding font "Cormorant" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+    <!-- Linking all files -->
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/landing.css">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/form.css">
+
+
+</head>
+<body>
+    <section id="landing">
+
+        <div id="landing-grid">
+            <!-- Creating a grid so i can create a left and a right segment -->
+            <div class="vertical-1">
+                <nav id="arc-nav">
+                    <div style="height: 4rem;"></div> 
+                    <!-- This spaces the nav buttons lower as it was too high -->
+
+                    <div class="arc-nav-button" id="nav1" onclick="location.href = 'structures/array.html'">
+                        <img src="./icons/giza.svg" class="arc-nav-icons">
+                    </div>
+                    <div class="arc-nav-button" id="nav2" onclick="location.href = 'structures/dictionary.html'">
+                        <img src="./icons/china.svg" class="arc-nav-icons">
+                    </div>
+                    <div class="arc-nav-button" id="nav3" onclick="location.href = 'structures/lists.html'">
+                        <img src="./icons/petra.svg" class="arc-nav-icons">
+                    </div>
+                    <div class="arc-nav-button" id="nav4">
+                        <img src="./icons/colosseum.svg" class="arc-nav-icons" onclick="location.href = 'structures/stack.html'">
+                    </div>
+                    <div class="arc-nav-button" id="nav5">
+                        <img src="./icons/itza.svg" class="arc-nav-icons" onclick="location.href = 'structures/linked-lists.html'">
+                    </div>
+                    <div class="arc-nav-button" id="nav6">
+                        <img src="./icons/pichu.svg" class="arc-nav-icons" onclick="location.href = 'structures/queue.html'">
+                    </div>
+                    <div class="arc-nav-button" id="nav7">
+                        <img src="./icons/taj.svg" class="arc-nav-icons" onclick="location.href = 'structures/graph.html'">
+                    </div>
+                    <div class="arc-nav-button" id="nav8" onclick="location.href = 'structures/binary-tree.html'">
+                        <img src="./icons/christ.svg" class="arc-nav-icons">
+                    </div>
+                    
+                </nav>
+
+
+                <span id="big-seven">8</span>
+                <div id="container-new-wonders">
+                    <p class="intro-title" id="nw-line1">Data Structures</p>
+                    <p class="intro-title" id="nw-line2">in</p>
+                    <p class="intro-title" id="nw-line3">Computer Science</p>
+                    <!-- Using different lines so I can, position them differently -->
+                </div>
+                
+            </div>
+            <div class="vertical-2">
+                <span id="about-website-small">Every data structure has distinct methods and applications, affecting time and memory usage. This site exists to clarify the differences in both time and memory complexity, providing insights into these structures.</span>
+            </div>
+        </div>
+
+        <img src="./images/fancy-vertical-divider.png" id="divider-1-image">
+        <!-- A simple divider -->
+    
+    </section>
+</body>
+</html>

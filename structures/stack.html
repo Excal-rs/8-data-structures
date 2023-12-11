@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stack</title>
+
+    <link rel="shortcut icon" href="../icons/colosseum.svg" type="image/x-icon">
+    <!-- Right landing page -->
+
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/info-landing.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/info-pages.css">
+    <!-- Linking CSS -->
+
+    <!-- Adding font "Cormorant" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <div id="left-section">
+   </div>
+        <div id="right-section">
+            <div class="nav-button" id="nav0" onclick="location.href = '../index.html'">
+                <img src="../icons/home.svg" class="nav-icons">
+            </div>
+            -
+            
+            <div class="nav-button" id="nav1" onclick="location.href = '../structures/array.html'">
+                <img src="../icons/giza.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav2" onclick="location.href = '../structures/dictionary.html'">
+                <img src="../icons/china.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav3" onclick="location.href = '../structures/lists.html'">
+                <img src="../icons/petra.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav5">
+                <img src="../icons/itza.svg" class="nav-icons" onclick="location.href = '../structures/linked-lists.html'">
+            </div>
+            <div class="nav-button" id="nav6">
+                <img src="../icons/pichu.svg" class="nav-icons" onclick="location.href = '../structures/queue.html'">
+            </div>
+            <div class="nav-button" id="nav7">
+                <img src="../icons/taj.svg" class="nav-icons" onclick="location.href = '../structures/graph.html'">
+            </div>
+            <div class="nav-button" id="nav8" onclick="location.href = '../structures/binary-tree.html'">
+                <img src="../icons/christ.svg" class="nav-icons">
+            </div>
+        </div>
+        </header>
+
+        <section id="info-landing">
+            <div id="landing-grid">
+                <div id="landing-image-container">
+                    <img src="../images/collesuem.jpg" id="background-image">
+                </div>
+                <div id="info-title">
+                    <p id="page-title-main">
+                        Stack
+                    </p>
+
+                    <ul id="wonder-fact-list">
+                        <li>pop() - Removes from top of stack</li>
+                        <li>push() - Adds to top of stack</li>
+                        <li>peak() / top() - Checks top of stack</li>
+                        <li>count() - check size of stack</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" id="divider-1h-container">
+            <img src="../images/fancy-divider.png" id="divider-1h" class="horizontal-divider">
+        </div>
+
+        <section class="textual-desciption-section">
+            <div id="textual-description">
+                A stack is like a stack of plates (Last-In-First-Out or LIFO). The last plate you put on the stack is the first one you take off. It's commonly used in computer science for tasks where you want to keep track of things in reverse order, like navigating through function calls in a program. Think of it like a stack of trays at a cafeteria—the last tray you put on the stack is the first one you grab.                <br> <br>
+                The space complexity of a stack can vary based on how it's implemented. In object-oriented programming (OOP), it might have a space complexity of O(n), but if you use an array with a fixed size, it's O(1). Because you only interact with the top item of the stack at any given time, the time complexity for push (adding an item) and pop (removing an item) operations is always O(1), regardless of the implementation method.            </div>            
+        </section>
+
+        <div class="divider" id="divider-2h-container">
+            <img src="../images/fancy-divider.png" id="divider-2h" class="horizontal-divider">
+        </div>
+
+        
+</body>
+</html>

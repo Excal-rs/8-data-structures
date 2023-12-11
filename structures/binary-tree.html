@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary Tree</title>
+
+    <link rel="shortcut icon" href="../icons/christ.svg" type="image/x-icon">
+    <!-- Right landing page -->
+
+    <link rel="stylesheet" href="../styles/general.css">
+    <link rel="stylesheet" href="../styles/info-landing.css">
+    <link rel="stylesheet" href="../styles/form.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/info-pages.css">
+    <!-- Linking CSS -->
+
+    <!-- Adding font "Cormorant" from Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,700;1,500&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    <header>
+        <div id="left-section">
+   </div>
+        <div id="right-section">
+            <div class="nav-button" id="nav0" onclick="location.href = '../index.html'">
+                <img src="../icons/home.svg" class="nav-icons">
+            </div>
+            -
+            
+            <div class="nav-button" id="nav1" onclick="location.href = '../structures/array.html'">
+                <img src="../icons/giza.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav2" onclick="location.href = '../structures/dictionary.html'">
+                <img src="../icons/china.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav3" onclick="location.href = '../structures/lists.html'">
+                <img src="../icons/petra.svg" class="nav-icons">
+            </div>
+            <div class="nav-button" id="nav4">
+                <img src="../icons/colosseum.svg" class="nav-icons" onclick="location.href = '../structures/stack.html'">
+            </div>
+            <div class="nav-button" id="nav5">
+                <img src="../icons/itza.svg" class="nav-icons" onclick="location.href = '../structures/linked-lists.html'">
+            </div>
+            <div class="nav-button" id="nav6">
+                <img src="../icons/pichu.svg" class="nav-icons" onclick="location.href = '../structures/queue.html'">
+            </div>
+            <div class="nav-button" id="nav7">
+                <img src="../icons/taj.svg" class="nav-icons" onclick="location.href = '../structures/graph.html'">
+            </div>
+        </div>
+        </header>
+
+        <section id="info-landing">
+            <div id="landing-grid">
+                <div id="landing-image-container">
+                    <img src="../images/christ-redeemer.jpg" id="background-image">
+                </div>
+                <div id="info-title">
+                    <p id="page-title-main">
+                        Binary Tree
+                    </p>
+
+                    <ul id="wonder-fact-list">
+                        <li>Insert Node: Adds a new node with a specific key to the binary tree.</li>
+                        <li>Delete Node: Removes a node with a specific key from the binary tree.</li>
+                        <li>Search Node: Retrieves a node with a specific key from the binary tree.</li>
+                        <li>Inorder Traversal: Visits all nodes of the binary tree in ascending order of their keys.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" id="divider-1h-container">
+            <img src="../images/fancy-divider.png" id="divider-1h" class="horizontal-divider">
+        </div>
+
+        <section class="textual-desciption-section">
+            <div id="textual-description">
+                Binary Trees have a time complexity that varies for different operations. Accessing a specific node based on its key in a binary tree has an average and worst-case time complexity of O(log n), where n is the number of nodes in the tree. However, in the worst case, it can be O(n) for unbalanced trees. Inserting a new node and deleting a node from a binary tree also have a time complexity of O(log n) on average, but O(n) in the worst case for unbalanced trees.                <br> <br>
+                The space complexity of a Binary Tree is O(n) in the worst case, where n is the number of nodes. This is because the tree structure is inherently recursive, and each node requires memory. In the best case, for a completely balanced tree, the space complexity is O(log n) due to the logarithmic height of the tree.            </div>            
+        </section>
+
+        <div class="divider" id="divider-2h-container">
+            <img src="../images/fancy-divider.png" id="divider-2h" class="horizontal-divider">
+        </div>
+
+        
+</body>
+</html>

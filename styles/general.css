@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    /* Resetting so I can style myself for each element */
+}
+
+:root {
+    --background-color: rgb(85, 136, 170);
+}
+
+html {
+    font-family: Cormorant, Arial, Helvetica, sans-serif ;
+    /* Setting the font-families to be inherited by the elements */
+}
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /* Prevent horizontal scrolling which isn't desired */
+
+    background-color: var(--background-color);
+    /* Didn't like how white looked */
+}
+
+section{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* By default all content in a generic "section" elements will be centred, can be changed */
+}
